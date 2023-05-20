@@ -1,14 +1,11 @@
-<!-- 로컬 에서 서버 실행 -->
+- 로컬 에서 서버 실행
+  supabase functions serve --no-verify-jwt --env-file ./supabase/.env.local
 
-supabase functions serve --no-verify-jwt --env-file ./supabase/.env.local
+- upabase edge functions 에 function 배포
+  supabase functions deploy functionName
 
-<!-- supabase edge functions 에 function 배포 -->
-
-supabase functions deploy functionName
-
-<!-- 새로운 edge function 생성 -->
-
-supabase functions new functionName
+- 새로운 edge function 생성 
+  supabase functions new functionName
 
 # Job-bot edge function server repository
 
