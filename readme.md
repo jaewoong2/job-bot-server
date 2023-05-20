@@ -14,3 +14,4 @@ supabase functions new functionName
 
 https://job-bot.site
 # job-bot-server
+# job-bot-server
